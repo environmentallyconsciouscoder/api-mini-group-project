@@ -1,4 +1,4 @@
-# TR Record Shop
+# Music Record Shop
 
 ## Table Of Contents
 *  section 1: Project description
