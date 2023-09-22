@@ -1,10 +1,10 @@
-package com.techreturner.music_record_shop;
+package com.techreturner.tr_record_shop_api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MusicRecordShopApplicationTests {
+class TrRecordShopApiApplicationTests {
 
 	@Test
 	void contextLoads() {

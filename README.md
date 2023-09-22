@@ -1,4 +1,4 @@
-# Music Record Shop
+# TR Record Shop API
 
 ## Table Of Contents
 *  section 1: Project description
