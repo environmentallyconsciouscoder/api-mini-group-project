@@ -4,8 +4,9 @@
 *  section 1: Project description
 *  section 2: How to install and run the project
 *  section 3: Test cases
-*  section 4: Approaches
-*  section 5: Future Roadmap
+*  section 4: Assumptions
+*  section 5: Approaches
+*  section 6: Future Roadmap
 
 ## Project description
 
@@ -27,6 +28,8 @@ Please ensure that you have Java and Maven installed on your computer. To run th
 |            |            |
 |            |            |
 |            |            |
+
+## Assumptions
 
 ## Approaches
 
