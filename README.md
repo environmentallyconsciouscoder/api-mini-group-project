@@ -20,62 +20,62 @@ We are a team of 3, and our approach to the task begins with designing the API s
 
 #### Base URL /api/v1/album
 
-* get all albums in stock
+#### get all albums in stock
 * /instock
 * return: array of albums [{id, title, artist, releasedYear, genre, stock}, ... ]
 * error status:
 
 
-* get all albums by a given artist
+#### get all albums by a given artist
 * GET /artist
 * parameter: artist
 * return: array of albums [{id, title, artist, releasedYear, genre, stock}, ... ]
 * error status: 404 unknown artist
 
 
-* get all albums by a given release year
+#### get all albums by a given release year
 * GET /year
 * parameter: releasedYear
 * return: array of albums [{id, title, artist, releasedYear, genre, stock}, ... ]
 * error status: invalid year (not a number, out of range)
 
 
-* get all albums by a given genre
+#### get all albums by a given genre
 * GET /genre
 * parameter: genre
 * return: array of albums [{id, title, artist, releasedYear, genre, stock}, ... ]
 * error status: 404 - unknown genre
 
 
-* get album information by album title
+#### get album information by album title
 * GET /title
 * parameter: title
 * return: array of albums [{id, title, artist, releasedYear, genre, stock}, ... ]
 * error status: 404 - missing or invalid title string
 
 
-* add new album into the database
+#### add new album into the database
 * POST /
 * parameters: title, artist, releasedYear, genre.
 * return: array of albums [{id, title, artist, releasedYear, genre, stock}, ... ]
 * error status: if (artist, releasedYear and title) match another record - return error.
 
 
-* update album details
+#### update album details
 * PUT /
 * parameters: id, title, artist, releasedYear, genre.
 * error status: if (artist, year and title) match a record other than the one being edited - return error.
 * error status: unknown id
 
 
-* update stock amounts of a particular album
+#### update stock amounts of a particular album
 * PATCH /stock
 * parameters: id, stock
 * error status: unknown id
 * error status: stock >= 0
 
 
-* delete albums from the inventory
+#### delete albums from the inventory
 * DELETE /
 * parameters: id
 * error status: unknown id
