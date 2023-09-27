@@ -1,12 +1,5 @@
 # TR Record Shop API
 
-## Table Of Contents
-*  section 1: Project description
-*  section 2: How to install and run the project
-*  section 3: Test cases
-*  section 5: Approaches
-*  section 6: Future Roadmap
-
 ## Project description
 
 Our MVP is an API backend for a music record shop. The backend system will store information about the records in stock, allowing us to query this data using various criteria such as title, year, genre, artists, and stock levels. Additionally, we have implemented functionality for updating and deleting records.
