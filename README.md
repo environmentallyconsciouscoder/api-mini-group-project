@@ -21,7 +21,7 @@ Please ensure that you have Java and Maven installed on your computer. To run th
 
 ## Approaches
 
-We are a team of 3, and our approach to the task begins with designing the API structure and service layer functionality. Next, we will collaboratively code the solution, with one team member taking the lead as the driver.
+We are a team of 3, and our approach to the task begins with designing the API structure and service layer functionality. Next, we have collaboratively code the solution, with one team member taking the lead as the driver.
 
 ### API Structure
 
